@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="FinalTest.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FinalTest"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Width="800" Height="798" Background="#FF031D26">
+        <Button x:Name="btnConnect" Content="Connect" FontSize="25" Margin="0,20,0,0" VerticalAlignment="Top" Height="45" Width="142" Click="btnConnect_Click" Background="#FF2B3EC7" HorizontalAlignment="Center"/>
+        <TextBlock x:Name="connTest" TextAlignment="Center" HorizontalAlignment="Left" Margin="349,93,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" FocusVisualPrimaryBrush="#FFDC1010" Foreground="#FF230101" Height="28" Width="91" FocusVisualSecondaryBrush="#99DD1818" SelectionHighlightColor="#FF0B72FF"/>
+        <Frame x:Name="frame" Width="768" Content="" Margin="16,93,16,9" Background="#FF33595C"/>
+        <Button x:Name="btnAdmin" Content="Admin" Margin="620,20,0,0" VerticalAlignment="Top" FontSize="25" Height="44" Width="139" Background="#FF2B3EC7" Click="btnAdmin_Click"/>
+        <Button x:Name="btnCustomer" Content="Customer" Margin="53,20,0,0" VerticalAlignment="Top" FontSize="25" Height="44" Width="126" Background="#FF2B3EC7" Click="btnCustomer_Click"/>
+
+    </Grid>
+</Page>
